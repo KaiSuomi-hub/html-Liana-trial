@@ -1,0 +1,77 @@
+Todo, liana:
+	Meta:
+		✔ Choose either fi or en to use in the project @done(22-05-07 15:02)
+		☐ Create github
+		☐ When done, publish to Rusinapul.la
+
+Basic features:
+	HTML+CSS:
+		☐ Make favicon
+		☐ Include a suitable title and description for the page
+		☐ Choose on what meta to include
+
+			Test run:
+				☐ do the language bar
+				☐ do the menu header
+				☐ do the latest news cards
+
+	Sivu toimii responsiivisena eri päätelaittella:
+		☐ check computer
+		☐ check mobile chrome
+		☐ check tablet chrome
+		☐ check chrome via pc  chrome add on
+
+
+
+
+Extra mileage:
+	☐ • Pääkuvan toteutuksessa parallax
+	☐ • Latest News osio RSS-syötteestä: https://www.lianatech.com/resources/blog.rss
+	☐ • Clients, Employees ja Users -osiossa numeroiden animaatio
+	☐ • Uutiskirjeen tilaus ja kiitosilmoitus
+
+
+Notes:
+	Colors & Fonts:
+		Font for the whole page: Open Sans
+		h1: 56 px
+		h2: 32 px
+		h3: 28 px
+		date: 13px
+		Buttons & etc: 20 px
+		p: 16 px sharp
+		Green highligh: #4c8930
+		Page background: #ffffff
+
+		Language bar:
+			Dropdown menu: #373a3c
+			Company     Products     Contact Us: #999999
+			Search border: 1 px #dddddd
+
+
+
+
+		Latests news:
+			bg: #eceeef
+			Ln. h2 & text : #373a3c
+			Ln. Card separator: #ddd
+			P semibold / date regular
+
+		References:
+			h4 semibold 24 px
+			p 16 px
+			border 1px #e0e0e0
+			section divider after references: 1 px #cccccc
+
+		Subscribe:
+			h2 semibold
+			p
+			buttons
+
+		Footer:
+			Comp name: 20px semib
+			Menu p
+			bg: #000000
+
+	Measurements:
+		Desktop: 1400 x 2552
