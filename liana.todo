@@ -1,16 +1,15 @@
 Todo, liana:
 	Meta:
 		✔ Choose either fi or en to use in the project @done(22-05-07 15:02)
-		☐ Create github
+		✔ Create github @done(22-05-07 15:56)
 		☐ When done, publish to Rusinapul.la
 
 Basic features:
 	HTML+CSS:
-		☐ Make favicon
-		☐ Include a suitable title and description for the page
-		☐ Choose on what meta to include
 
-			Test run:
+		✔ Choose on what meta to include from real liana site @done(22-05-07 15:56)
+
+			Test run with tailwind:
 				☐ do the language bar
 				☐ do the menu header
 				☐ do the latest news cards
