@@ -1,20 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<style>
-		:root {
-			--color-white: white;
-			--theme-brand-primary: #4c8930;
-			/* ooh, they changed the primary */
-		}
-	</style>
 
-	<link rel="stylesheet" href="./css/styles.css">
-<!-- Let's include the Liana's own data for ico and sos. med. link previews -->
+	<!-- let's get index.css which contains sass and sailfish -->
+	<link rel="stylesheet" href="../css/sailfishStyles.css">
+	<link rel="stylesheet" href="../css/sassOutput.css">
+
+	<!-- Let's include the Liana's own data for ico and sos. med. link previews -->
 	<link rel="shortcut icon" href="https://www.lianatech.com/media/layout/img/favicon/favicon.ico">
-	<meta name="theme-color" content="#ffffff">
+
 	<title>Marketing &amp; PR Technology Stack | Liana Technologies - LianaTech.com</title>
 	<meta name="description"
 		content="Take your marketing to the cloud. With Liana® Cloud, we offer you the right solutions for everything you need in your digital marketing and communications.">
@@ -28,10 +25,48 @@
 </head>
 
 <body>
-<div class="container">
-	<p style="color:var(--theme-brand-primary)" class="">Hello, world!</p>
-</div>
+	<main class="font-sans text-base  " >
 
+		<nav  class="md:flex lg:flex flex:column justify-end  bg-liana" id="topnav">
+
+				<!-- grid-flow-row auto-rows-max md:grid-flow-col lg:grid-flow-col -->
+				<div class=""><a>News</a></div>
+
+				<div><a>Intranet</a></div>
+
+				<div class="">
+				<select name="language" id="language">
+					<option value="English">in English</option>
+				</select>
+				</div>
+
+
+
+		</nav>
+
+
+
+
+
+
+
+		<div class="content-center grid grid-flow-row auto-rows-max md:grid-flow-col">
+
+			<div class="child p-4 border-2 border-gray-700">
+				<h1>this is test content</h1>
+				<P>paragraph</P>
+			</div>
+
+			<div id="hero" class="child p-4 border-2 greybd">
+				<h1 class="font-light">Software fueling digital marketing</h1>
+				<P>paragraph</P>
+			</div>
+
+
+
+		</div>
+
+	</main>
 </body>
 
 

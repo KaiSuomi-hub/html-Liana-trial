@@ -1,0 +1,63 @@
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  padding: 0px;
+  margin: 0px;
+}
+
+button {
+  background-color: brand;
+  color: #fff;
+}
+
+a {
+  cursor: pointer;
+}
+
+select {
+  font-size: 16px;
+  text-align: left;
+  color: #555;
+  font-weight: 100;
+  cursor: pointer;
+}
+
+#language {
+  min-width: 180px;
+  min-height: 35px;
+  border-radius: 5px;
+  padding: 0 8px 0 13px;
+  margin: -2px 120px 0 10px;
+  border: 0px;
+}
+
+.greybd {
+  border: 1px solid #ddd;
+}
+
+#hero {
+  background-image: url("../images/yini.jpg");
+}
+
+#topnav {
+  min-height: 44px;
+  text-align: center;
+  font-weight: 200;
+  padding-top: 12px;
+}
+
+#topnav a {
+  color: #fff;
+  padding: 0 10px 0 10px;
+}
+
+@media (max-width: 768px) {
+  #topnav {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  #language {
+    margin: 10px 0 10px 0;
+  }
+}/*# sourceMappingURL=sassOutput.css.map */

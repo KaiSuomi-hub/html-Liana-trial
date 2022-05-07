@@ -1,0 +1,34 @@
+{
+  "name": "html_koe_buutti",
+  "version": "1.0.0",
+  "description": "test for internship at Liana",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -o ./src/css/sailfishStyles.css",
+    
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KaiSuomi-hub/html-Liana-trial.git"
+  },
+  "keywords": [
+    "test",
+    "buutti"
+  ],
+  "author": "Antti Suomi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KaiSuomi-hub/html-Liana-trial/issues"
+  },
+  "homepage": "https://github.com/KaiSuomi-hub/html-Liana-trial#readme",
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.1",
+    "autoprefixer": "^10.4.7",
+    "tailwindcss": "^3.0.24",
+    "tailwindcss-typography": "^3.1.0"
+  },
+  "dependencies": {
+    "depcheck": "^1.4.3"
+  }
+}

@@ -1,0 +1,6 @@
+#Command to check classes and output use css
+npx tailwindcss -o ./src/css/styles.css
+
+
+#add below to script build when no more changes with sass
+ && concat -o ./src/css/index.css ./src/css/sassOutput.css ./src/css/sailfishStyles.css  "
