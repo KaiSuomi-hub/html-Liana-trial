@@ -47,33 +47,15 @@
   width: 100%
 }
 
-@media (min-width: 640px) {
+@media (min-width: 1028px) {
   .container {
-    max-width: 640px
+    max-width: 1028px
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1400px) {
   .container {
-    max-width: 768px
-  }
-}
-
-@media (min-width: 1024px) {
-  .container {
-    max-width: 1024px
-  }
-}
-
-@media (min-width: 1280px) {
-  .container {
-    max-width: 1280px
-  }
-}
-
-@media (min-width: 1536px) {
-  .container {
-    max-width: 1536px
+    max-width: 1400px
   }
 }
 
@@ -82,17 +64,16 @@
   position: sticky
 }
 
-.mx-auto {
-  margin-left: auto;
-  margin-right: auto
+.ml-32 {
+  margin-left: 8rem
 }
 
 .flex {
   display: flex
 }
 
-.w-64 {
-  width: 16rem
+.w-14 {
+  width: 3.5rem
 }
 
 .flex-wrap {
@@ -111,6 +92,10 @@
   justify-content: space-between
 }
 
+.justify-items-end {
+  justify-items: end
+}
+
 .bg-liana {
   --tw-bg-opacity: 1;
   background-color: rgb(76 137 48 / var(--tw-bg-opacity))
@@ -119,6 +104,19 @@
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity))
+}
+
+.p-2 {
+  padding: 0.5rem
+}
+
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem
+}
+
+.text-center {
+  text-align: center
 }
 
 .font-sans {
@@ -133,14 +131,34 @@
   font-weight: 300
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1028px) {
+  .md\:ml-28 {
+    margin-left: 7rem
+  }
+
   .md\:flex {
     display: flex
   }
+
+  .md\:w-3\/6 {
+    width: 50%
+  }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1400px) {
+  .lg\:mr-8 {
+    margin-right: 2rem
+  }
+
   .lg\:flex {
     display: flex
+  }
+
+  .lg\:w-2\/6 {
+    width: 33.333333%
+  }
+
+  .lg\:pl-6 {
+    padding-left: 1.5rem
   }
 }

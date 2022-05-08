@@ -9,6 +9,14 @@ module.exports = {
       lg: ['20px'],
       xl: ['24px'],
     },
+    screens: {
+          'md': '1028px',
+      // => @media (min-width: 768px) { ... }
+
+            'lg': '1400px',
+      // => @media (min-width: 1440px) { ... }
+    },'xl': '2556px',
+    // => @media (min-width: 2556px) { ... }
     extend: {
       colors: {
         liana: "#4c8930",
