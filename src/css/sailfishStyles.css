@@ -43,34 +43,72 @@
   --tw-backdrop-sepia:  
 }
 
-.grid {
-  display: grid
+.container {
+  width: 100%
 }
 
-.grid-flow-row {
-  grid-auto-flow: row
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px
+  }
 }
 
-.auto-rows-max {
-  grid-auto-rows: -webkit-max-content;
-  grid-auto-rows: max-content
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px
+  }
 }
 
-.content-center {
-  align-content: center
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px
+  }
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto
+}
+
+.flex {
+  display: flex
+}
+
+.w-64 {
+  width: 16rem
+}
+
+.flex-wrap {
+  flex-wrap: wrap
+}
+
+.items-center {
+  align-items: center
 }
 
 .justify-end {
   justify-content: flex-end
 }
 
-.border-2 {
-  border-width: 2px
-}
-
-.border-gray-700 {
-  --tw-border-opacity: 1;
-  border-color: rgb(55 65 81 / var(--tw-border-opacity))
+.justify-between {
+  justify-content: space-between
 }
 
 .bg-liana {
@@ -78,8 +116,9 @@
   background-color: rgb(76 137 48 / var(--tw-bg-opacity))
 }
 
-.p-4 {
-  padding: 1rem
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity))
 }
 
 .font-sans {
@@ -98,18 +137,10 @@
   .md\:flex {
     display: flex
   }
-
-  .md\:grid-flow-col {
-    grid-auto-flow: column
-  }
 }
 
 @media (min-width: 1024px) {
   .lg\:flex {
     display: flex
-  }
-
-  .lg\:grid-flow-col {
-    grid-auto-flow: column
   }
 }

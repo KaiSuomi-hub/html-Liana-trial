@@ -25,50 +25,50 @@
 </head>
 
 <body>
-	<main class="font-sans text-base  " >
-
-		<nav  class="md:flex lg:flex flex:column justify-end  bg-liana" id="topnav">
-
-				<!-- grid-flow-row auto-rows-max md:grid-flow-col lg:grid-flow-col -->
-				<div class=""><a>News</a></div>
-
-				<div><a>Intranet</a></div>
-
-				<div class="">
+	<main class="font-sans text-base  ">
+<!-- here's the language nav -->
+		<nav class="md:flex lg:flex flex:column justify-end  bg-liana" id="topnav">
+			<div><a href="http://www.lianatech.com/news">News</a></div>
+			<div><a>Intranet</a></div>
+			<div>
 				<select name="language" id="language">
 					<option value="English">in English</option>
 				</select>
-				</div>
+			</div>
+		</nav>
+<!-- here's the sticky top bar navigation -->
+		<nav id="mainnav" class="bg-white container flex flex-wrap justify-between items-center mx-auto">
+
+			<img src="../images/liana-logo.png" alt="Liana company logo" id="logo" class="" />
+			<div><a href="http://www.lianatech.com/company">Company</a></div>
+			<div><a href="http://www.lianatech.com/products">Products</a></div>
+			<div><a href="http://www.lianatech.com/contact">Contact Us</a></div>
 
 
+			<div id="page-search" class="w-64">
 
+				<input aria-label="Insert term to search for" id="searchsite" name="search" placeholder="Search" type="text">
+				<input aria-label="Search from the site" onclick="siteSearch()" type="submit" value="Search" id="searchsubmit"  />
+
+
+			</div>
 		</nav>
 
+<!-- here's hero -->
 
 
 
-
-
-
-		<div class="content-center grid grid-flow-row auto-rows-max md:grid-flow-col">
-
-			<div class="child p-4 border-2 border-gray-700">
-				<h1>this is test content</h1>
-				<P>paragraph</P>
-			</div>
-
-			<div id="hero" class="child p-4 border-2 greybd">
+		<div id="hero" class="flex items-center">
 				<h1 class="font-light">Software fueling digital marketing</h1>
-				<P>paragraph</P>
-			</div>
-
-
+				<button class="" >Read more!</button>
 
 		</div>
 
 	</main>
 </body>
 
+<script>
 
+</script>
 
 </html>

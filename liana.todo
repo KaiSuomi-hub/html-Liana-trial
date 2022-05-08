@@ -10,7 +10,7 @@ Basic features:
 		✔ Choose on what meta to include from real liana site @done(22-05-07 15:56)
 
 			Test run with tailwind:
-				☐ do the language bar
+				✔ do the language bar @done(22-05-07 22:13)
 				☐ do the menu header
 				☐ do the latest news cards
 
@@ -47,9 +47,14 @@ Notes:
 			Company     Products     Contact Us: #999999
 			Search border: 1 px #dddddd
 
-
-
-
+		Navbar:
+			Height: 110px
+			margin-left&right: 130px
+			20 px grid gap
+			margin-left 1008 px search box
+			min-height: 34 px search box
+			Logo height 36 px
+			
 		Latests news:
 			bg: #eceeef
 			Ln. h2 & text : #373a3c

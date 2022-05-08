@@ -13,3 +13,7 @@ Went through the task and extracted materials from the provided layout.psd. Even
 Bootstrap would be an obvious choice for the framework as the ready b. points and jquery would make extra points easier to score.
 
 Going to give tailwind a go first, even if I haven't used it before, as this would be a good learning experience.
+
+5hrs later: Yeah, not sure how much better tailwind is than just plain flex/grid with sass.
+Gonna go along with it anyways.
+

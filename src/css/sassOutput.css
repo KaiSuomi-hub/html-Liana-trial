@@ -5,13 +5,33 @@ body {
   margin: 0px;
 }
 
-button {
-  background-color: brand;
+#hero button {
+  background-color: #4c8930;
   color: #fff;
+  border: none;
+  min-width: 141px;
+  min-height: 50px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 100;
+  border-radius: 5px;
+}
+
+#newsletter button {
+  background-color: #4c8930;
+  color: #fff;
+  border: none;
+  min-width: 127px;
+  min-height: 50px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 100;
+  border-radius: 5px;
 }
 
 a {
   cursor: pointer;
+  text-decoration: none;
 }
 
 select {
@@ -49,6 +69,36 @@ select {
 #topnav a {
   color: #fff;
   padding: 0 10px 0 10px;
+}
+
+#mainnav {
+  min-height: 110px;
+}
+
+#mainnav a {
+  color: #999999;
+}
+
+#searchsubmit {
+  background-color: #4c8930;
+  color: #fff;
+  border: none;
+  padding: 10px 4.5px 10px 4.5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 100;
+  border-radius: 5px;
+}
+
+#searchsite {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #dddddd;
+  padding: 10px 4.5px 10px 4.5px;
+  minimum-width: 177px;
+  font-size: 16px;
+  font-weight: 100;
+  border-radius: 5px;
 }
 
 @media (max-width: 768px) {
