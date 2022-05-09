@@ -131,6 +131,15 @@
   font-weight: 300
 }
 
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity))
+}
+
+.bg-blend-darken {
+  background-blend-mode: darken
+}
+
 @media (min-width: 1028px) {
   .md\:ml-28 {
     margin-left: 7rem
@@ -138,6 +147,10 @@
 
   .md\:flex {
     display: flex
+  }
+
+  .md\:h-96 {
+    height: 24rem
   }
 
   .md\:w-3\/6 {

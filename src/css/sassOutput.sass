@@ -55,7 +55,17 @@ select
 	border: 1px solid #ddd
 
 #hero
-	background-image: url("../images/yini.jpg")
+	background-image: url("../images/jumbotron.jpg")
+	background-repeat: no-repeat
+	background-size: cover
+	background-blend-mode: soft-light
+	background-color: #666
+	max-height: 480px
+
+
+
+// .darken
+
 
 
 #topnav
@@ -112,6 +122,13 @@ select
 		input
 			margin-top: 0.5rem
 			margin-bottom: 0.5rem
+	#hero
+		max-height: 200px
+
+
+
+
+
 
 // remember the new md 1024 & lg 1400
 @media (max-width: 1024px)
@@ -121,6 +138,9 @@ select
 	#language
 		margin: 10px 0 10px 0
 
+
+
+
 	#page-search
 		margin-right: 18rem
 		input
@@ -128,7 +148,6 @@ select
 			margin-bottom: 0.4rem
 	.menu
 		min-width: 200px
-
 
 @media (min-width: 1501px)
 	#mainnav

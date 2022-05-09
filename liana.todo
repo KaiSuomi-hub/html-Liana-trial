@@ -11,8 +11,14 @@ Basic features:
 
 			Test run with tailwind:
 				✔ do the language bar @done(22-05-07 22:13)
-				☐ do the menu header
-				☐ do the latest news cards
+				✔ do the menu header @done(22-05-08 16:20)
+				☐ hero
+				☐ company cards
+				☐ numbers
+				☐ latest news cards
+				☐ references
+				☐ cta newsletter
+				☐ footer
 
 	Sivu toimii responsiivisena eri päätelaittella:
 		☐ check computer
@@ -54,7 +60,11 @@ Notes:
 			margin-left 1008 px search box
 			min-height: 34 px search box
 			Logo height 36 px
-			
+
+		Hero:
+			height: 420px
+
+
 		Latests news:
 			bg: #eceeef
 			Ln. h2 & text : #373a3c

@@ -56,7 +56,12 @@ select {
 }
 
 #hero {
-  background-image: url("../images/yini.jpg");
+  background-image: url("../images/jumbotron.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: soft-light;
+  background-color: #666;
+  max-height: 480px;
 }
 
 #topnav {
@@ -116,6 +121,10 @@ select {
   #page-search input {
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
+  }
+
+  #hero {
+    max-height: 200px;
   }
 }
 @media (max-width: 1024px) {
