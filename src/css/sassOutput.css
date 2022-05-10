@@ -153,6 +153,32 @@ select {
   font-weight: 600;
 }
 
+#counters {
+  margin-bottom: 3rem;
+}
+
+.counter {
+  display: flex;
+  max-height: 200px;
+}
+.counter p {
+  line-height: 1rem;
+}
+.counter h2 {
+  font-size: 3.5rem;
+  font-weight: 200;
+  line-height: 0rem;
+}
+.counter img {
+  margin-top: 25px;
+  max-height: 61px;
+}
+
+#news {
+  background-color: #eceeef;
+  min-height: 500px;
+}
+
 @media (max-width: 1024px) {
   #topnav {
     padding-top: 10px;
@@ -199,7 +225,7 @@ select {
   }
 
   #compcards div:nth-child(3) {
-    background-position: center -center;
+    background-position: center center;
   }
 }
 @media (min-width: 1400px) {

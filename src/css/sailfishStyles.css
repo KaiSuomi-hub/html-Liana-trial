@@ -72,12 +72,30 @@
   margin: 3rem
 }
 
+.my-12 {
+  margin-top: 3rem;
+  margin-bottom: 3rem
+}
+
+.mx-72 {
+  margin-left: 18rem;
+  margin-right: 18rem
+}
+
+.ml-8 {
+  margin-left: 2rem
+}
+
 .flex {
   display: flex
 }
 
 .grid {
   display: grid
+}
+
+.grid-flow-col {
+  grid-auto-flow: column
 }
 
 .flex-wrap {
