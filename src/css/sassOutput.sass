@@ -11,21 +11,7 @@ body
 h1
 	font-family: 'Open Sans', sans-serif
 
-
-#hero
-	button
-		background-color: $brand
-		color: #fff
-		border: none
-		min-width: 141px
-		min-height: 50px
-		cursor: pointer
-		font-size: 20px
-		font-weight: 100
-		border-radius: 5px
-
-#newsletter
-	button
+button
 		background-color: $brand
 		color: #fff
 		border: none
@@ -38,7 +24,7 @@ h1
 a
 	cursor: pointer
 	text-decoration: none
-
+	color: #fff
 
 select
 	font-size: 16px
@@ -46,28 +32,21 @@ select
 	color: #555
 	font-weight: 100
 	cursor: pointer
+	background-color: #fff
 
+
+//* language + topnav
 
 #language
 		min-width: 180px
 		min-height: 35px
 		border-radius:5px
-		padding: 0 8px 0 13px
+		padding:3px 8px 0 13px
 		margin: -2px 120px 0 10px
 		border: 0px
 
 .greybd
 	border: 1px solid #ddd
-
-#hero
-	background-image: url("../images/jumbotron.jpg")
-	background-repeat: no-repeat
-	background-size: cover
-	background-blend-mode: soft-light
-	background-color: #666
-	max-height: 480px
-	background-position: center -2.3rem
-
 
 
 // .darken
@@ -85,7 +64,7 @@ select
 		color: #fff
 		padding: 0 10px 0 10px
 
-// here we start on main nav
+//* here we start on main nav
 #mainnav
 	min-height: 110px
 
@@ -114,29 +93,77 @@ select
 	font-weight: 100
 	border-radius: 5px
 
-// #logo
+#logo
+	padding-left: 112px
+	margin-right: 30px
+
 #searchsite
 	max-width: 150px
 
 #page-search
-	margin-right: 8rem
+	margin-right: 1rem
 	input
 		padding: 7.5px 15px 7.5px 15px
+
+// * hero
+
+#hero
+	background-image: url("../images/jumbotron.jpg")
+	background-repeat: no-repeat
+	background-size: cover
+	background-blend-mode: soft-light
+	background-color: #666
+	max-height: 480px
+	background-position: center -128px
+	button
+		margin-top: -1rem
+		min-width: 141px
+		min-height: 50px
+
+
 #hero-title
-	font-size: 2.2rem
-	padding-top: 1rem
-
-@media (min-width: 768)
-	#page-search
-		input
-			margin-top: 0.5rem
-			margin-bottom: 0.5rem
-	#hero
-		max-height: 200px
+	font-size: 3.4rem
 
 
+// * company cards
+
+#compcards
+		div:nth-child(1)
+			background-image: url("../images/company.jpg")
+
+		div:nth-child(2)
+			background-image: url("../images/products.jpg")
+		div:nth-child(3)
+			background-image: url("../images/contact.jpg")
 
 
+
+.compcard
+	background-repeat: no-repeat
+	background-size: cover
+	background-blend-mode: soft-light
+	background-color: #666
+	background-position: center center
+	min-height: 222px
+	border-radius: 5px
+	text-align: center
+	// * let's try to learn this in tailwind
+	// display: flex
+	// justify-content: center
+	// align-items: center
+	a
+		font-size: 1.5rem
+		color: #fff
+		font-weight: 600
+
+
+// #company
+
+// #contactUs
+
+
+
+// ! *MAX* 1024
 
 
 // remember the new md 1024 & lg 1400
@@ -147,16 +174,49 @@ select
 	#language
 		margin: 10px 0 10px 0
 
-
-
-
 	#page-search
 		margin-right: 18rem
+		margin-left: 8rem
 		input
 			margin-top: 0.4rem
 			margin-bottom: 0.4rem
 	.menu
 		min-width: 200px
+
+	#hero-title
+		font-size: 2rem
+		padding: 0 10px 0 10px
+
+	#hero
+		min-height: 200px
+		button
+			margin-bottom: 1%
+
+	#compcards
+		div:nth-child(3)
+			background-position: center 0px
+
+// ! min 768
+
+@media (min-width: 768)
+	#page-search
+		input
+			margin-top: 0.5rem
+			margin-bottom: 0.5rem
+	#compcards
+		div:nth-child(3)
+			background-position: center -center
+//! min 1400
+@media (min-width: 1400px)
+	#compcards
+		div:first-child
+			margin-left: 25px
+		div:last-child
+			margin-right: 25px
+
+
+// ! min 1501
+
 
 @media (min-width: 1501px)
 	#mainnav
@@ -165,11 +225,20 @@ select
 		margin-right:10rem
 
 
+// ! min 2084
+
+
 @media (min-width: 2084px)
 	#page-search
-		margin-right:0rem
+		margin-right: -1%
+
+	#hero
+		min-height:700px
+
+
+// ! min 2400
 
 
 @media (min-width: 2400px)
 	#page-search
-		margin-right:-2.2rem
+		margin-right: -10%

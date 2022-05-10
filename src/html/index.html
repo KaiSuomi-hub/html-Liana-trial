@@ -29,7 +29,7 @@
 		<!-- here's the language nav -->
 		<nav class="md:flex lg:flex flex:column justify-end  bg-liana" id="topnav">
 			<div><a href="http://www.lianatech.com/news">News</a></div>
-			<div><a>Intranet</a></div>
+			<div><a href="http://www.lianatech.com/intra">Intranet</a></div>
 			<div class="text-center" >
 				<select name="language" id="language">
 					<option value="English">in English</option>
@@ -37,9 +37,9 @@
 			</div>
 		</nav>
 		<!-- here's the sticky top bar navigation -->
-		<nav id="mainnav" class="bg-white container flex flex-wrap text-center justify-between items-center ml-32 md:ml-28">
+		<nav id="mainnav" class="bg-white container flex flex-wrap text-center justify-between items-center ">
 
-			<div class="flex flex-wrap justify-left  items-center w-14 md:w-3/6  lg:w-2/6 ">
+			<div class="flex flex-wrap justify-left items-center ">
 				<div id="logo" class=" py-5 "> <img src="../images/liana-logo.png" alt="Liana company logo" class="" /></div>
 				<div id="menufirst" class="menu p-2 lg:pl-6" ><a href="http://www.lianatech.com/company">Company</a></div>
 				<div  class="menu p-2"><a href="http://www.lianatech.com/products">Products</a></div>
@@ -56,16 +56,30 @@
 		</nav>
 
 		<!-- here's hero -->
-		<section>
-		<div id="hero" class="flex md:h-96">
+		<section id="hero" class="flex md:h-96  ">
 			<div  class="m-auto text-center">
-				<div><h1 id="hero-title" class=" font-light text-white">Software fueling digital marketing</h1></div>
+				<div><h1 id="hero-title" class=" sm:text-xl font-light text-white">Software fueling digital marketing</h1></div>
 				<div><button class="font-thin">Learn more</button></div>
 			</div>
-		</div>
 		</section>
 
+		<!-- here's the company cards -->
 
+		<section id="compcards" class="grid md:grid-flow-col m-12 gap-8 bg-white ">
+			<!-- company -->
+			<div class="flex justify-center items-center compcard"><a class="" href="http://www.lianatech.com/company">Company</a></div>
+			<!-- products -->
+			<div class="flex justify-center items-center compcard"><a href="http://www.lianatech.com/Products">Products</a></div>
+			<!-- contact us -->
+			<div class="flex justify-center items-center compcard"><a href="http://www.lianatech.com/news">Contact us</a></div>
+		</section>
+
+		<!-- here's the counters -->
+
+		<section id="counters" class="grid md:grid-flow-col m-12 gap-8 bg-white ">
+
+
+		</section>
 
 
 	</main>

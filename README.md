@@ -6,7 +6,7 @@ A test on html and css for internship.
 
 I'll include my thoughts and ideas here in the documentation.
 
-**7.5. The unpacking and tasking**
+**7.5 The unpacking and tasking**
 
 Went through the task and extracted materials from the provided layout.psd. Even though responsivity was hoped for there was no layout provided for mobile devices.
 
@@ -24,3 +24,9 @@ Even though I feel often I'd like to just do a basic grid in sass and get rid of
 
 Plugging the compile script to package.json to go along with the react build will be easy, but I wonder how long it'd take for me to have the same instinctive feel to the tailwind classes that I have for basic css.
 
+**10.5 3rd day, total time spent: 14 hours**
+
+Starting the third day on the task and I have probably spent 14 hours on it. I think actually four or five of are actual working hours and the rest is just playing with tailwind or trying to get it to work.
+
+
+Doing the whole page with breakpoints and a hamburger menu would take me eight to ten hours total with just css and vanilla javascript.

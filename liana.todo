@@ -12,13 +12,15 @@ Basic features:
 			Test run with tailwind:
 				✔ do the language bar @done(22-05-07 22:13)
 				✔ do the menu header @done(22-05-08 16:20)
-				☐ hero
+				✔ hero @done(22-05-09 19:33)
 				☐ company cards
 				☐ numbers
 				☐ latest news cards
 				☐ references
 				☐ cta newsletter
 				☐ footer
+				☐ hamburger menu
+				☐ go through and check all is accesible and that tailwind accessibility is ok
 
 	Sivu toimii responsiivisena eri päätelaittella:
 		☐ check computer
@@ -37,6 +39,11 @@ Extra mileage:
 
 
 Notes:
+	Screensizes:
+	'md': '1028px',
+	'lg': '1400px',
+	'xl': '2556px',
+	
 	Colors & Fonts:
 		Font for the whole page: Open Sans
 		h1: 56 px
@@ -63,6 +70,11 @@ Notes:
 
 		Hero:
 			height: 420px
+
+		Comp cards:
+			50px margin to top
+			15px + 15px grid gap
+			360pxx222px
 
 
 		Latests news:

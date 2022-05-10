@@ -68,16 +68,16 @@
   margin: auto
 }
 
-.ml-32 {
-  margin-left: 8rem
+.m-12 {
+  margin: 3rem
 }
 
 .flex {
   display: flex
 }
 
-.w-14 {
-  width: 3.5rem
+.grid {
+  display: grid
 }
 
 .flex-wrap {
@@ -92,12 +92,20 @@
   justify-content: flex-end
 }
 
+.justify-center {
+  justify-content: center
+}
+
 .justify-between {
   justify-content: space-between
 }
 
 .justify-items-end {
   justify-items: end
+}
+
+.gap-8 {
+  gap: 2rem
 }
 
 .bg-liana {
@@ -135,16 +143,16 @@
   font-weight: 300
 }
 
+.font-thin {
+  font-weight: 100
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity))
 }
 
 @media (min-width: 1028px) {
-  .md\:ml-28 {
-    margin-left: 7rem
-  }
-
   .md\:flex {
     display: flex
   }
@@ -153,8 +161,8 @@
     height: 24rem
   }
 
-  .md\:w-3\/6 {
-    width: 50%
+  .md\:grid-flow-col {
+    grid-auto-flow: column
   }
 }
 
