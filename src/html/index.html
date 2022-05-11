@@ -27,7 +27,7 @@
 </head>
 
 <body>
-	<main class="font-sans text-base">
+	<main class="font-sans text-textcolor text-base">
 		<!-- here's the language nav -->
 		<nav class="md:flex lg:flex flex:column justify-end bg-liana" id="topnav">
 			<div><a href="http://www.lianatech.com/news">News</a></div>
@@ -78,7 +78,7 @@
 
 		<!-- here's the company cards -->
 
-		<section id="compcards" class="grid md:grid-flow-col m-12 gap-8 bg-white">
+		<div id="compcards" class="grid md:grid-flow-col m-12 gap-8 bg-white">
 			<!-- company -->
 			<div class="flex justify-center items-center compcard">
 				<a class="" href="http://www.lianatech.com/company">Company</a>
@@ -91,13 +91,13 @@
 			<div class="flex justify-center items-center compcard">
 				<a href="http://www.lianatech.com/news">Contact us</a>
 			</div>
-		</section>
+		</div>
 
 		<!-- here's the counters -->
 
 		<section id="counters" class="
 		grid
-		grid-flow-col
+		md:grid-flow-col
 		my-12
 		gap-8
 		mx-72
@@ -107,8 +107,8 @@
 				<img src="../images/Business.jpg" alt="Business icon" />
 
 				<div class="ml-8">
-					<h2 >3000</h2>
-					<p >Clients</p>
+					<h2>3000</h2>
+					<p>Clients</p>
 				</div>
 			</div>
 			<!-- counter 2 -->
@@ -117,7 +117,7 @@
 
 				<div class="ml-8">
 					<h2>180</h2>
-					<p>Employees</p>
+					<p class="pl-2">Employees</p>
 				</div>
 			</div>
 			<!-- counter 3 -->
@@ -125,17 +125,92 @@
 				<img src="../images/Public.jpg" alt="Business icon" />
 				<div class="ml-8">
 					<h2>10000</h2>
-					<p>Daily users</p>
+					<p class="pl-2">Daily users</p>
 				</div>
 			</div>
 		</section>
 
 		<!-- latest news -->
 
-		<section id="news"></section>
+		<section class="pb-2" id="news">
+			<h1 class="pt-12 text-center">Latest News</h1>
+			<div  class="
+			grid
+			md:grid-flow-col
+			m-12
+			gap-8
+			">
+			<!-- newsitem 1 -->
+			<div class="newsitem">
+				<p>27.07.2016</p>
+				<h3>Liana Technologies and Encode Solutions merge to create unique mobile solutions	</h3>
+			</div>
+			<!-- newsitem 2 -->
+			<div class="newsitem">
+
+				<p>28.01.2016</p>
+				<h3>From a local startup to a global player: Liana Technologies among the forerunners of digital
+					marketing technology</h3>
+
+			</div>
+			<!-- newsitem 3 -->
+			<div class="newsitem">
+
+				<p>02.07.2015</p>
+				<h3>Liana Technologies Hong Kong launched a series of digital marketing events in June</h3>
+
+			</div>
+			</div>
+		</section>
+
+				<!--references -->
+		<section class="pb-2" id="references">
+			<h1 class="pt-12 text-center">References</h1>
+			<div  class="
+			grid
+			md:grid-flow-col
+			m-12
+			gap-8
+
+			">
+			<!-- bosch-->
+			<div class="text-center referencesitem">
+
+				<div class=" referencesimage">
+					<img  src="../images/bosch.jpg" alt="Bosch Logo" />
+				</div>
+
+				<div>
+				<h1>Robert Bosch</h1>
+				<p>Bosch is a multinational engineering and electronics company.
+				</p>
+				</div>
+
+			</div>
+			<!-- bodyshop -->
+			<div class="text-center referencesitem">
+
+				<div class=" referencesimage">
+					<img  src="../images/bosch.jpg" alt="Bosch Logo" />
+				</div>
+
+				<div>
+				<h1>Robert Bosch</h1>
+				<p>Bosch is a multinational engineering and electronics company.
+				</p>
+				</div>
+
+			</div>
+
+			<!-- lapland -->
+
+			<!-- ikea -->
+
+		</section>
+
 	</main>
 </body>
 
-<script></script>
+<!-- <script></script> -->
 
 </html>

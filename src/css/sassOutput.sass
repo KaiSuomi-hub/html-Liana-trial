@@ -1,6 +1,6 @@
 $brand: #4c8930
-$drpdownbg: #373a3c
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap')
+$textcolor: #373a3c
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap')
 
 body
 	font-family: 'Open Sans', sans-serif
@@ -8,8 +8,14 @@ body
 	padding: 0px
 	margin: 0px
 
-h1
+*
 	font-family: 'Open Sans', sans-serif
+
+h1, h2, h3, p
+	color: $textcolor
+
+h3
+	font-size: 1.17em
 
 button
 		background-color: $brand
@@ -25,6 +31,7 @@ a
 	cursor: pointer
 	text-decoration: none
 	color: #fff
+	font-family: 'Open Sans', sans-serif
 
 select
 	font-size: 16px
@@ -48,11 +55,6 @@ select
 .greybd
 	border: 1px solid #ddd
 
-
-// .darken
-
-
-
 #topnav
 	min-height: 58-14px
 	text-align: center
@@ -71,6 +73,7 @@ select
 #mainnav
 	a
 		color: #999999
+		font-weight: 600
 
 #searchsubmit
 	background-color: $brand
@@ -79,7 +82,6 @@ select
 	padding: 10px 4.5px 10px 4.5px
 	cursor: pointer
 	font-size: 16px
-	font-weight: 100
 	border-radius: 5px
 
 
@@ -104,6 +106,7 @@ select
 	margin-right: 1rem
 	input
 		padding: 7.5px 15px 7.5px 15px
+		font-weight: 600
 
 // * hero
 
@@ -158,13 +161,15 @@ select
 
 // * counters
 #counters
-	margin-bottom: 3rem
+	margin-bottom: 4rem
 
 .counter
 	display: flex
 	max-height: 200px
 	p
 		line-height: 1rem
+		font-weight:600
+		text-align: left
 	h2
 		font-size: 3.5rem
 		font-weight:200
@@ -173,11 +178,48 @@ select
 		margin-top:25px
 		max-height:61px
 
-
+// * news
 
 #news
 	background-color: #eceeef
-	min-height: 500px
+	margin-bottom: -21px
+	h1
+		font-size: 2rem
+
+.newsitem
+	background-color: #fff
+	border-radius: 5px
+	padding: 10px 65px 10px 15px
+
+	h3
+		font-weight: bold
+		margin-top: 0px
+	p
+		font-size:0.75rem
+// * references
+
+#references
+	background-color: #fff
+	margin-bottom: -21px
+	h1
+		font-size: 2rem
+
+.referencesitem
+	background-color: #fff
+	border: 1px solid #ddd
+	border-radius: 5px
+	// padding: 10px 65px 10px 15px
+	h1
+		padding: 10px 65px 10px 15px
+		font-size: 2rem
+	p
+		padding: 10px 65px 10px 15px
+		
+.referencesimage
+	display: flex
+	justify-content: center
+	align-items: center
+	border-bottom: 1px solid #ddd
 
 
 // ! *MAX* 1024
@@ -214,7 +256,13 @@ select
 			background-position: center 0px
 
 	#counters
-		
+		margin-left: 25%
+
+	#news
+		h3
+			font-size: 1rem
+
+
 // ! min 768
 
 @media (min-width: 768)
@@ -235,8 +283,14 @@ select
 			margin-left: 25px
 		div:last-child
 			margin-right: 25px
+	#news
+		div:first-child
+			margin-left: 25px
+		div:last-child
+			margin-right: 38px
 
-
+	.newsitem
+		height: 150px
 // ! min 1501
 
 

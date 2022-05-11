@@ -15,7 +15,7 @@ Basic features:
 				✔ hero @done(22-05-09 19:33)
 				✔ company cards @done(22-05-10 21:07)
 				✔ numbers @done(22-05-10 22:28)
-				☐ latest news cards
+				✔ latest news cards @done(22-05-11 14:06)
 				☐ references
 				☐ cta newsletter
 				☐ footer
@@ -79,7 +79,7 @@ Notes:
 
 		Latests news:
 			bg: #eceeef
-			Ln. h2 & text : #373a3c
+			Ln. h3 & text : #373a3c
 			Ln. Card separator: #ddd
 			P semibold / date regular
 

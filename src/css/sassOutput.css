@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap");
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
@@ -6,8 +6,16 @@ body {
   margin: 0px;
 }
 
-h1 {
+* {
   font-family: "Open Sans", sans-serif;
+}
+
+h1, h2, h3, p {
+  color: #373a3c;
+}
+
+h3 {
+  font-size: 1.17em;
 }
 
 button {
@@ -26,6 +34,7 @@ a {
   cursor: pointer;
   text-decoration: none;
   color: #fff;
+  font-family: "Open Sans", sans-serif;
 }
 
 select {
@@ -68,6 +77,7 @@ select {
 
 #mainnav a {
   color: #999999;
+  font-weight: 600;
 }
 
 #searchsubmit {
@@ -77,7 +87,6 @@ select {
   padding: 10px 4.5px 10px 4.5px;
   cursor: pointer;
   font-size: 16px;
-  font-weight: 100;
   border-radius: 5px;
 }
 
@@ -106,6 +115,7 @@ select {
 }
 #page-search input {
   padding: 7.5px 15px 7.5px 15px;
+  font-weight: 600;
 }
 
 #hero {
@@ -154,7 +164,7 @@ select {
 }
 
 #counters {
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
 }
 
 .counter {
@@ -163,6 +173,8 @@ select {
 }
 .counter p {
   line-height: 1rem;
+  font-weight: 600;
+  text-align: left;
 }
 .counter h2 {
   font-size: 3.5rem;
@@ -176,7 +188,51 @@ select {
 
 #news {
   background-color: #eceeef;
-  min-height: 500px;
+  margin-bottom: -21px;
+}
+#news h1 {
+  font-size: 2rem;
+}
+
+.newsitem {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10px 65px 10px 15px;
+}
+.newsitem h3 {
+  font-weight: bold;
+  margin-top: 0px;
+}
+.newsitem p {
+  font-size: 0.75rem;
+}
+
+#references {
+  background-color: #fff;
+  margin-bottom: -21px;
+}
+#references h1 {
+  font-size: 2rem;
+}
+
+.referencesitem {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.referencesitem h1 {
+  padding: 10px 65px 10px 15px;
+  font-size: 2rem;
+}
+.referencesitem p {
+  padding: 10px 65px 10px 15px;
+}
+
+.referencesimage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
 }
 
 @media (max-width: 1024px) {
@@ -217,6 +273,14 @@ select {
   #compcards div:nth-child(3) {
     background-position: center 0px;
   }
+
+  #counters {
+    margin-left: 25%;
+  }
+
+  #news h3 {
+    font-size: 1rem;
+  }
 }
 @media (min-width: 768) {
   #page-search input {
@@ -234,6 +298,17 @@ select {
   }
   #compcards div:last-child {
     margin-right: 25px;
+  }
+
+  #news div:first-child {
+    margin-left: 25px;
+  }
+  #news div:last-child {
+    margin-right: 38px;
+  }
+
+  .newsitem {
+    height: 150px;
   }
 }
 @media (min-width: 1501px) {
