@@ -59,6 +59,10 @@
   }
 }
 
+.invisible {
+  visibility: hidden
+}
+
 .sticky {
   position: -webkit-sticky;
   position: sticky
@@ -88,10 +92,6 @@
 
 .ml-8 {
   margin-left: 2rem
-}
-
-.ml-9 {
-  margin-left: 2.25rem
 }
 
 .flex {
@@ -201,12 +201,20 @@
 }
 
 @media (min-width: 1028px) {
+  .md\:visible {
+    visibility: visible
+  }
+
   .md\:m-0 {
     margin: 0px
   }
 
   .md\:flex {
     display: flex
+  }
+
+  .md\:grid {
+    display: grid
   }
 
   .md\:h-96 {
@@ -219,6 +227,10 @@
 
   .md\:grid-flow-col {
     grid-auto-flow: column
+  }
+
+  .md\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr))
   }
 }
 
