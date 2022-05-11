@@ -20,7 +20,8 @@ module.exports = {
     extend: {
       colors: {
         liana: "#4c8930",
-        textcolor: "#373a3c"
+        textcolor: "#373a3c",
+        bordercolor: "#dddddd"
       },
     },
   },

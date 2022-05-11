@@ -72,6 +72,10 @@
   margin: 3rem
 }
 
+.m-4 {
+  margin: 1rem
+}
+
 .my-12 {
   margin-top: 3rem;
   margin-bottom: 3rem
@@ -86,6 +90,10 @@
   margin-left: 2rem
 }
 
+.ml-9 {
+  margin-left: 2.25rem
+}
+
 .flex {
   display: flex
 }
@@ -94,8 +102,8 @@
   display: grid
 }
 
-.hidden {
-  display: none
+.h-52 {
+  height: 13rem
 }
 
 .flex-wrap {
@@ -134,6 +142,11 @@
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity))
+}
+
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity))
 }
 
 .p-2 {
@@ -188,12 +201,20 @@
 }
 
 @media (min-width: 1028px) {
+  .md\:m-0 {
+    margin: 0px
+  }
+
   .md\:flex {
     display: flex
   }
 
   .md\:h-96 {
     height: 24rem
+  }
+
+  .md\:h-64 {
+    height: 16rem
   }
 
   .md\:grid-flow-col {

@@ -1,5 +1,7 @@
 $brand: #4c8930
 $textcolor: #373a3c
+$bordergrey: #dddddd
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap')
 
 body
@@ -53,7 +55,7 @@ select
 		border: 0px
 
 .greybd
-	border: 1px solid #ddd
+	border: 1px solid $bordergrey
 
 #topnav
 	min-height: 58-14px
@@ -88,7 +90,7 @@ select
 #searchsite
 	background-color: #fff
 	color: #000
-	border: 1px solid #dddddd
+	border: 1px solid $bordergrey
 	padding: 10px 4.5px 10px 4.5px
 	minimum-width:177px
 	font-size: 16px
@@ -200,29 +202,52 @@ select
 
 #references
 	background-color: #fff
-	margin-bottom: -21px
+	// margin-bottom: -21px
+	margin: 0px 72px 10px 72px
+
 	h1
 		font-size: 2rem
 
 .referencesitem
 	background-color: #fff
-	border: 1px solid #ddd
+	border: 1px solid $bordergrey
 	border-radius: 5px
+	min-height: 375px
+
 	// padding: 10px 65px 10px 15px
-	h1
-		padding: 10px 65px 10px 15px
-		font-size: 2rem
+	h4
+		font-size: 1.4rem
+		margin: 20px 0px 0px 0px
 	p
-		padding: 10px 65px 10px 15px
-		
+		padding: 0 24px 0 24px
+
 .referencesimage
 	display: flex
 	justify-content: center
 	align-items: center
-	border-bottom: 1px solid #ddd
+	border-bottom: 1px solid $bordergrey
+	min-height: 50%
 
+//t newsletter styling
+#newsletter
+	border-top: 1px solid #dddddd
+	padding-bottom: 19px
+	h1
+		font-size: 2rem
+	p
+		max-width:350px
+		margin-left: 20%
+#contact-info
+	input
+		font-size: 16px
+		min-height: 50
+		min-width: 418px
+		padding: 13px 0 13px 10px
+		border-radius: 5px
+		border: 1px solid $bordergrey
 
-// ! *MAX* 1024
+//t  here we start with the responsive layout
+//t *MAX* 1024
 
 
 // remember the new md 1024 & lg 1400
@@ -263,7 +288,7 @@ select
 			font-size: 1rem
 
 
-// ! min 768
+//t min 768
 
 @media (min-width: 768)
 	#page-search
@@ -291,7 +316,7 @@ select
 
 	.newsitem
 		height: 150px
-// ! min 1501
+//t min 1501
 
 
 @media (min-width: 1501px)
@@ -301,7 +326,7 @@ select
 		margin-right:10rem
 
 
-// ! min 2084
+//t min 2084
 
 
 @media (min-width: 2084px)
@@ -312,7 +337,7 @@ select
 		min-height:700px
 
 
-// ! min 2400
+//t min 2400
 
 
 @media (min-width: 2400px)
