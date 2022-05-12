@@ -59,13 +59,13 @@
   }
 }
 
-.invisible {
-  visibility: hidden
-}
-
 .sticky {
   position: -webkit-sticky;
   position: sticky
+}
+
+.float-right {
+  float: right
 }
 
 .m-auto {
@@ -100,10 +100,6 @@
 
 .grid {
   display: grid
-}
-
-.h-52 {
-  height: 13rem
 }
 
 .flex-wrap {
@@ -170,6 +166,10 @@
   padding-top: 3rem
 }
 
+.pt-8 {
+  padding-top: 2rem
+}
+
 .text-center {
   text-align: center
 }
@@ -201,12 +201,16 @@
 }
 
 @media (min-width: 1028px) {
-  .md\:visible {
-    visibility: visible
+  .md\:float-right {
+    float: right
   }
 
   .md\:m-0 {
     margin: 0px
+  }
+
+  .md\:mt-24 {
+    margin-top: 6rem
   }
 
   .md\:flex {

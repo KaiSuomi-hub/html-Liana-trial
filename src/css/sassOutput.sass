@@ -1,6 +1,7 @@
 $brand: #4c8930
 $textcolor: #373a3c
 $bordergrey: #dddddd
+$bgwhite: #ffffff
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap')
 
@@ -21,7 +22,7 @@ h3
 
 button
 		background-color: $brand
-		color: #fff
+		color: $bgwhite
 		border: none
 		min-width: 127px
 		min-height: 50px
@@ -29,10 +30,13 @@ button
 		font-size: 20px
 		font-weight: 100
 		border-radius: 5px
+
+
+
 a
 	cursor: pointer
 	text-decoration: none
-	color: #fff
+	color: $bgwhite
 	font-family: 'Open Sans', sans-serif
 
 select
@@ -41,7 +45,7 @@ select
 	color: #555
 	font-weight: 100
 	cursor: pointer
-	background-color: #fff
+	background-color: $bgwhite
 
 
 //* language + topnav
@@ -65,7 +69,7 @@ select
 
 #topnav
 	a
-		color: #fff
+		color: $bgwhite
 		padding: 0 10px 0 10px
 
 //* here we start on main nav
@@ -79,7 +83,7 @@ select
 
 #searchsubmit
 	background-color: $brand
-	color: #fff
+	color: $bgwhite
 	border: none
 	padding: 10px 4.5px 10px 4.5px
 	cursor: pointer
@@ -88,7 +92,7 @@ select
 
 
 #searchsite
-	background-color: #fff
+	background-color: $bgwhite
 	color: #000
 	border: 1px solid $bordergrey
 	padding: 10px 4.5px 10px 4.5px
@@ -158,7 +162,7 @@ select
 	// align-items: center
 	a
 		font-size: 1.5rem
-		color: #fff
+		color: $bgwhite
 		font-weight: 600
 
 // * counters
@@ -189,7 +193,7 @@ select
 		font-size: 2rem
 
 .newsitem
-	background-color: #fff
+	background-color: $bgwhite
 	border-radius: 5px
 	padding: 10px 65px 10px 15px
 
@@ -201,7 +205,7 @@ select
 // * references
 
 #references
-	background-color: #fff
+	background-color: $bgwhite
 	// margin-bottom: -21px
 	margin: 0px 72px 10px 72px
 
@@ -209,7 +213,7 @@ select
 		font-size: 2rem
 
 .referencesitem
-	background-color: #fff
+	background-color: $bgwhite
 	border: 1px solid $bordergrey
 	border-radius: 5px
 	min-height: 375px
@@ -246,12 +250,51 @@ select
 		border-radius: 5px
 		border: 1px solid $bordergrey
 
+// t footer
+#footer
+	min-height:272px
+	padding:0px 100px 0px 100px
+	h4
+		font-size: 20px
+		padding: 10px 0 0 0
+	h5
+		font-size: 16px
+		line-height: 10px
+		margin-bottom: -3px
+	.button
+		padding: 5px 15px
+
+
+	p
+		line-height: 10px
+
+	a
+		padding: 0 10px 0 10px
+
+
+#some
+	a
+		padding: 0 4px 0 4px
+
+
+
+.button
+		background-color: $brand
+		color: $bgwhite
+		border: none
+		cursor: pointer
+		border-radius: 5px
 //t  here we start with the responsive layout
 //t *MAX* 1024
 
 
 // remember the new md 1024 & lg 1400
 @media (max-width: 1024px)
+	
+	#footer
+		text-align: center
+		min-height:300px
+
 	#topnav
 		padding-top: 10px
 		padding-bottom: 10px
@@ -314,7 +357,18 @@ select
 		div:last-child
 			margin-right: 38px
 
+	#bottomnav
+		padding-left: 160px
+	#footer
+		min-height:272px
+		padding:0px 100px 0px 100px
+		h4
 
+			padding: 10px 0 0 0
+		h5
+			margin-bottom: -3px
+		.button
+			margin:-40px 200px 0 0px
 
 	.newsitem
 		height: 150px

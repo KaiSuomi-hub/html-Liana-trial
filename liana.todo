@@ -18,8 +18,8 @@ Basic features:
 				✔ latest news cards @done(22-05-11 14:06)
 				✔ references @done(22-05-11 16:55)
 				✔ cta newsletter @done(22-05-11 18:11)
-				☐ footer
-				☐ hamburger menu
+				✔ footer @done(22-05-11 18:51)
+				☐ hamburg`  9er menu
 				☐ go through and check all is accesible, conforms to standards and that tailwind's accessibility is ok
 
 	Sivu toimii responsiivisena eri päätelaittella:
@@ -99,6 +99,7 @@ Notes:
 			Comp name: 20px semib
 			Menu p
 			bg: #000000
+			h 272px
 
 	Measurements:
 		Desktop: 1400 x 2552

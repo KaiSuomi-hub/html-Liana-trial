@@ -20,7 +20,7 @@ h3 {
 
 button {
   background-color: #4c8930;
-  color: #fff;
+  color: #ffffff;
   border: none;
   min-width: 127px;
   min-height: 50px;
@@ -33,7 +33,7 @@ button {
 a {
   cursor: pointer;
   text-decoration: none;
-  color: #fff;
+  color: #ffffff;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -43,7 +43,7 @@ select {
   color: #555;
   font-weight: 100;
   cursor: pointer;
-  background-color: #fff;
+  background-color: #ffffff;
 }
 
 #language {
@@ -67,7 +67,7 @@ select {
 }
 
 #topnav a {
-  color: #fff;
+  color: #ffffff;
   padding: 0 10px 0 10px;
 }
 
@@ -82,7 +82,7 @@ select {
 
 #searchsubmit {
   background-color: #4c8930;
-  color: #fff;
+  color: #ffffff;
   border: none;
   padding: 10px 4.5px 10px 4.5px;
   cursor: pointer;
@@ -91,7 +91,7 @@ select {
 }
 
 #searchsite {
-  background-color: #fff;
+  background-color: #ffffff;
   color: #000;
   border: 1px solid #dddddd;
   padding: 10px 4.5px 10px 4.5px;
@@ -159,7 +159,7 @@ select {
 }
 .compcard a {
   font-size: 1.5rem;
-  color: #fff;
+  color: #ffffff;
   font-weight: 600;
 }
 
@@ -195,7 +195,7 @@ select {
 }
 
 .newsitem {
-  background-color: #fff;
+  background-color: #ffffff;
   border-radius: 5px;
   padding: 10px 65px 10px 15px;
 }
@@ -208,7 +208,7 @@ select {
 }
 
 #references {
-  background-color: #fff;
+  background-color: #ffffff;
   margin: 0px 72px 10px 72px;
 }
 #references h1 {
@@ -216,7 +216,7 @@ select {
 }
 
 .referencesitem {
-  background-color: #fff;
+  background-color: #ffffff;
   border: 1px solid #dddddd;
   border-radius: 5px;
   min-height: 375px;
@@ -258,7 +258,47 @@ select {
   border: 1px solid #dddddd;
 }
 
+#footer {
+  min-height: 272px;
+  padding: 0px 100px 0px 100px;
+}
+#footer h4 {
+  font-size: 20px;
+  padding: 10px 0 0 0;
+}
+#footer h5 {
+  font-size: 16px;
+  line-height: 10px;
+  margin-bottom: -3px;
+}
+#footer .button {
+  padding: 5px 15px;
+}
+#footer p {
+  line-height: 10px;
+}
+#footer a {
+  padding: 0 10px 0 10px;
+}
+
+#some a {
+  padding: 0 4px 0 4px;
+}
+
+.button {
+  background-color: #4c8930;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
 @media (max-width: 1024px) {
+  #footer {
+    text-align: center;
+    min-height: 300px;
+  }
+
   #topnav {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -328,6 +368,24 @@ select {
   }
   #news div:last-child {
     margin-right: 38px;
+  }
+
+  #bottomnav {
+    padding-left: 160px;
+  }
+
+  #footer {
+    min-height: 272px;
+    padding: 0px 100px 0px 100px;
+  }
+  #footer h4 {
+    padding: 10px 0 0 0;
+  }
+  #footer h5 {
+    margin-bottom: -3px;
+  }
+  #footer .button {
+    margin: -40px 200px 0 0px;
   }
 
   .newsitem {
