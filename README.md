@@ -10,6 +10,7 @@ TL:DR
 Spent 30 hours doing the site and trying to rely on tailwind as much as possible.
 Learning tailwind from scratch made the task last 3x as long as without.
 Had fun.
+Check out .todo for timestamps and details.
 
 🎁**7.5 The unpacking and tasking**🎁
 
