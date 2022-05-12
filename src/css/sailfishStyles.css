@@ -68,6 +68,10 @@
   float: right
 }
 
+.m-2 {
+  margin: 0.5rem
+}
+
 .m-auto {
   margin: auto
 }
@@ -92,6 +96,10 @@
 
 .ml-8 {
   margin-left: 2rem
+}
+
+.block {
+  display: block
 }
 
 .flex {
@@ -128,6 +136,10 @@
 
 .gap-8 {
   gap: 2rem
+}
+
+.rounded {
+  border-radius: 0.25rem
 }
 
 .bg-liana {

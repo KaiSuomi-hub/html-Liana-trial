@@ -2,7 +2,7 @@ Todo, liana:
 	Meta:
 		✔ Choose either fi or en to use in the project @done(22-05-07 15:02)
 		✔ Create github @done(22-05-07 15:56)
-		☐ When done, publish to Rusinapul.la
+		✔ When done, publish to Rusinapul.la @done(22-05-12 11:42)
 
 Basic features:
 	HTML+CSS:
@@ -19,15 +19,15 @@ Basic features:
 				✔ references @done(22-05-11 16:55)
 				✔ cta newsletter @done(22-05-11 18:11)
 				✔ footer @done(22-05-11 18:51)
-				☐ hamburg`  9er menu
-				☐ go through and check all is accesible, conforms to standards and that tailwind's accessibility is ok
+				✔ hamburger menu @done(22-05-12 11:16)
+				✔ go through and check all is accessible, conforms to standards and that tailwind's accessibility is ok @done(22-05-12 11:16)
 
 	Sivu toimii responsiivisena eri päätelaittella:
 		http://192.168.1.3:8080/src/html
-		☐ check computer
-		☐ check mobile chrome
-		☐ check tablet chrome
-		☐ check chrome via pc  chrome add on
+		✔ check computer @done(22-05-12 11:16)
+		✔ check mobile chrome @done(22-05-12 11:16)
+		✔ check chrome via pc  chrome add on @done(22-05-12 11:16)
+		✔ check tablet chrome @done(22-05-12 11:16)
 
 
 

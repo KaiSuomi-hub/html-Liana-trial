@@ -28,6 +28,32 @@
 
 <body>
 	<main class="font-sans text-textcolor text-base">
+
+		<div id="togglemenu" class="">
+			<nav id="" class="">
+				<div  class="p-2"><a href="http://www.lianatech.com/news">News</a></div>
+				<div  class="p-2"><a href="http://www.lianatech.com/intra">Intranet</a></div>
+
+				<div class="">
+					<div id="" class=" p-2">
+						<a href="http://www.lianatech.com/company">Company</a>
+					</div>
+					<div class="p-2">
+						<a href="http://www.lianatech.com/products">Products</a>
+					</div>
+					<div class="p-2">
+						<a href="http://www.lianatech.com/contact">Contact Us</a>
+					</div>
+				</div>
+				<div class="p-2 rounded m-2">
+				<select   name="language" >
+					<option value="English">in English</option>
+				</select>
+			</div>
+			</nav>
+		</div>
+		<!-- here starts hamburger hide and show -->
+		<div class="hamburger">
 		<!-- here's the language nav -->
 		<nav class="md:flex lg:flex flex:column justify-end bg-liana" id="topnav">
 			<div><a href="http://www.lianatech.com/news">News</a></div>
@@ -63,7 +89,28 @@
 					id="searchsubmit" />
 			</div>
 		</nav>
+		</div>
+		<!-- here's -->
+		<div class="dd">
+		<div class="hamburgerbtn" onclick="myFunction(this)">
+			<div   class="bar1"></div>
+			<div class="bar2"></div>
+			<div class="bar3"></div>
+		</div>
+	</div>
 
+<!-- here's the script for the menu toggle -->
+<script>
+	const element = document.getElementById("togglemenu");	//get  the toggle element
+
+	function myFunction(x) {
+	if (element.style.display === 'block'){
+		element.style.display = "none";} else {
+			element.style.display = "block"
+	}
+	x.classList.toggle("change");
+}
+</script>
 		<!-- here's hero -->
 		<section id="hero" class="flex md:h-96">
 			<div class="m-auto text-center">
@@ -166,7 +213,7 @@
 		<!--references -->
 		<section class="pb-2" id="references">
 			<h1 class="pt-12 text-center">References</h1>
-			<div class="
+			<div id="referenceslist" class="
 			grid
 			md:grid-flow-col
 			m-12
@@ -263,7 +310,7 @@
 			</div>
 
 
-			<div class="float-right text-center pt-8" id="bottomnav">
+			<div class="md:float-right text-center pt-8" id="bottomnav">
 				<a>Company</a>
 				<a>Products</a>
 				<a>Contact us</a>
@@ -282,6 +329,6 @@
 	</main>
 </body>
 
-<!-- <script></script> -->
+
 
 </html>

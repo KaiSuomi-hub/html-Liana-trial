@@ -6,6 +6,11 @@ A test on html and css for internship 💻
 
 I'll include my thoughts and ideas here in the documentation.
 
+TL:DR
+Spent 30 hours doing the site and trying to rely on tailwind as much as possible.
+Learning tailwind from scratch made the task last 3x as long as without.
+Had fun.
+
 🎁**7.5 The unpacking and tasking**🎁
 
 Went through the task and extracted materials from the provided layout.psd. Even though responsivity was hoped for there was no layout provided for mobile devices.
@@ -33,3 +38,8 @@ Starting the third day on the task and I have probably spent 14 hours on it. I t
 
 I'm sold. Tailwind, liveserver and sass allow me an insanely more intuitive and responsive development experience. My total dev time per ⏱\<section\>⏱ has been going steadily down after grogging the process.
 I need to thank Liana for this experience even if don't get the internship 😋
+
+**12.5 5th day, total time spent: 24 hours**
+
+
+Done.

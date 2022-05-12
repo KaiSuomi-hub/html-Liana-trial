@@ -59,6 +59,75 @@ select {
   border: 1px solid #dddddd;
 }
 
+#togglemenu {
+  display: none;
+  position: fixed;
+  background-color: #4c8930;
+  padding-top: 300px;
+  border-radius: 0 0 10px 0;
+  opacity: 0.8;
+}
+
+@media only screen and (max-width: 1024px) {
+  .hamburger {
+    display: none;
+  }
+
+  .hamburgerbtn {
+    display: inline;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .hamburger {
+    display: block;
+  }
+
+  .hamburgerbtn, .dd {
+    display: none;
+  }
+}
+.dd {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  background-color: #4c8930;
+  width: 40px;
+  height: 30px;
+  padding: 3px 2px 10px 7px;
+  border-radius: 5px;
+  margin: 30px 0px 0px 10px;
+}
+
+.hamburgerbtn {
+  cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #ffffff;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change {
+  background-color: red;
+}
+.change .bar1 {
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {
+  opacity: 0;
+}
+
+.change {
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+}
+
 #topnav {
   min-height: 44px;
   text-align: center;
